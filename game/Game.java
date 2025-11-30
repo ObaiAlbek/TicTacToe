@@ -28,8 +28,7 @@ public class Game {
 
             if (board.isBoardFull()) {
                 System.out.println("Unentschieden! Kein Feld mehr frei.");
-                board.printBoard();
-                return;
+                this.board = new Board();
             }
 
             switchPlayer();
